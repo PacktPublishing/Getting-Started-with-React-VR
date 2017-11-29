@@ -1,0 +1,20 @@
+{
+  "report": {
+    "terrestrial_date": "2017-09-27",
+    "sol": 1828,
+    "ls": 66.0,
+    "min_temp": -80.0,
+    "min_temp_fahrenheit": -112.0,
+    "max_temp": -27.0,
+    "max_temp_fahrenheit": -16.6,
+    "pressure": 878.0,
+    "pressure_string": "Higher",
+    "abs_humidity": null,
+    "wind_speed": null,
+    "wind_direction": "--",
+    "atmo_opacity": "Sunny",
+    "season": "Month 3",
+    "sunrise": "2017-09-27T11:02:00Z",
+    "sunset": "2017-09-27T22:47:00Z"
+  }
+}
