@@ -1,0 +1,15 @@
+# Blender MTL File: 'MazeHedges3_bare.blend'
+# Material Count: 1
+
+newmtl HedgeMat
+Ns 19.607843
+Ka 0.000000 0.900000 0.000000
+Kd 0.0 0.8 0.0
+Ks 0.000000 0.800000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+# JDG: You could experiment with these
+# map_Kd Hedge_Diffuse.png
+# map_d Hedge_Diffuse.png

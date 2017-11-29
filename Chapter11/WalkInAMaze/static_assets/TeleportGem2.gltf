@@ -1,0 +1,270 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5121, 
+            "count" : 102, 
+            "max" : [
+                86
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 87, 
+            "max" : [
+                0.4699999988079071, 
+                0.12168420851230621, 
+                0.40703195333480835
+            ], 
+            "min" : [
+                -0.4699999988079071, 
+                -0.20000000298023224, 
+                -0.40703195333480835
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 87, 
+            "max" : [
+                0.7636657357215881, 
+                1.0, 
+                0.8692141175270081
+            ], 
+            "min" : [
+                -0.7636657357215881, 
+                -0.9999999403953552, 
+                -0.8818052411079407
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 87, 
+            "max" : [
+                1.0, 
+                0.8817500472068787, 
+                0.866025447845459, 
+                1.0
+            ], 
+            "min" : [
+                -1.0, 
+                -0.6829221248626709, 
+                -0.9998904466629028, 
+                1.0
+            ], 
+            "type" : "VEC4"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 87, 
+            "max" : [
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                0.0, 
+                0.34375
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 102, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1044, 
+            "byteOffset" : 104, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1044, 
+            "byteOffset" : 1148, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1392, 
+            "byteOffset" : 2192, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 696, 
+            "byteOffset" : 3584, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 4280, 
+            "uri" : "TeleportGem2.bin"
+        }
+    ], 
+    "cameras" : [
+        {
+            "name" : "Camera", 
+            "perspective" : {
+                "aspectRatio" : 1.7777777777777777, 
+                "yfov" : 0.5033799372418416, 
+                "zfar" : 100.0, 
+                "znear" : 0.10000000149011612
+            }, 
+            "type" : "perspective"
+        }
+    ], 
+    "images" : [
+        {
+            "uri" : "WalkGemUV_2_StareMat_BaseColor.png"
+        }, 
+        {
+            "uri" : "WalkGemUV_2_StareMat_Roughness.png"
+        }, 
+        {
+            "uri" : "WalkGemUV_2_StareMat_Metallic.png"
+        }, 
+        {
+            "uri" : "WalkGemUV_2_StareMat_Normal.png"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "StareMat", 
+            "normalTexture" : {
+                "index" : 3
+            }, 
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Gem.001", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TANGENT" : 3, 
+                        "TEXCOORD_0" : 4
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "camera" : 0, 
+            "name" : "Correction_Camera", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                0
+            ], 
+            "name" : "Camera", 
+            "rotation" : [
+                0.483536034822464, 
+                0.33687159419059753, 
+                -0.20870360732078552, 
+                0.7804827094078064
+            ], 
+            "translation" : [
+                7.481131553649902, 
+                5.34366512298584, 
+                6.5076398849487305
+            ]
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "Gem.001", 
+            "translation" : [
+                0.0, 
+                1.4573397636413574, 
+                -0.0
+            ]
+        }, 
+        {
+            "name" : "Lamp", 
+            "rotation" : [
+                0.16907575726509094, 
+                0.7558802962303162, 
+                -0.27217137813568115, 
+                0.570947527885437
+            ], 
+            "scale" : [
+                1.0, 
+                1.0, 
+                0.9999999403953552
+            ], 
+            "translation" : [
+                4.076245307922363, 
+                5.903861999511719, 
+                -1.0054539442062378
+            ]
+        }
+    ], 
+    "samplers" : [
+        {}
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                2, 
+                3, 
+                1
+            ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 1
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 2
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 3
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<script src="makeMaze.js"></script>
+
+<head>
+<meta charset=utf-8 />
+<title>Sample Maze</title>
+</head>
+<body>
+  <div id="maze">
+<form style="text-align:center" name="forma1">
+    <br><label>Height:</label><br>
+    <input type="text" id="height" name="height" autofocus="autofocus" maxlength="2" size="6" />
+    <br><label>Width:</label><br>
+    <input type="text" id="width" name="width"  maxlength="2" size="6" />
+    <br>
+    <br><label>Seed:</label><br>
+    <input type="text" id="seed" name="seed" autofocus="autofocus" maxlength="2" size="6" />
+    <br /><br />
+    Note that the width and height are a general suggestion of the size, not the exact dimensions.
+</form>
+<input type="button" alt="submit" onClick="duom();" value="Generate" style="margin-top:10px;" >
+</div>
+<pre id="out"></pre>
+  
+</body>
+</html>
