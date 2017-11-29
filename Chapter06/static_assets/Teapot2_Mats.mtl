@@ -1,0 +1,50 @@
+# Blender MTL File: 'Teapot2.blend'
+# Material Count: 4
+
+newmtl Handle
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.088551 0.088551 0.088551
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+map_Kd Handle_Base_Color.jpg
+map_Ks Handle_Metallic.jpg
+illum 2
+
+newmtl Lid
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.020620 0.022788 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+map_Kd Lid_Base_Color.jpg
+map_Ks Lid_Metallic.jpg
+illum 2
+
+newmtl Pot
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.006181 0.006113 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+map_Kd Pot_Base_Color.jpg
+map_Ks Pot_Metallic.jpg
+illum 2
+
+newmtl Spout
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.245494 0.113521
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+map_Kd Spout_Base_Color.jpg
+map_Ks Spout_Metallic.jpg
+illum 2

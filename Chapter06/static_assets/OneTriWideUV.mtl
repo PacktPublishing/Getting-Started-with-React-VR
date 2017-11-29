@@ -1,0 +1,17 @@
+# Blender MTL File: 'OneTriSkinny.blend'
+# Material Count: 1
+
+newmtl BaseMat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BucherTile_Lettered.jpg
+map_Ka BucherTile_Lettered.jpg
+map_bump bucherTile_Height.jpg
+disp bucherTile_Height.jpg
+refl -type sphere BabbageStation_v1_r3.jpg     

@@ -1,0 +1,11 @@
+# Blender v2.77 (sub 0) OBJ File: 'OneTri.blend'
+# www.blender.org
+mtllib OneTri.mtl
+o Triangle_Teapot
+v -7.615456 0.218278 -1.874056
+v -4.384528 15.177612 -6.276536
+v 4.801097 2.745610 3.762014
+vn -0.445200 0.339900 0.828400
+usemtl NewMat
+s off
+f 3//1 2//1 1//1
